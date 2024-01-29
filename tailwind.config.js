@@ -9,10 +9,17 @@ export default {
         sm: '2rem',
         lg: '4rem',
         xl: '5rem',
-        '2xl': '6rem',
-      },
+        '2xl': '6rem'
+      }
     },
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#101820',
+        secondary: '#B67659',
+        brown: '#553f38',
+        gray: '#898A92'
+      }
+    }
   },
   plugins: []
 }
