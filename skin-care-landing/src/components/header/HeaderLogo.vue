@@ -5,5 +5,5 @@ const logo = ref('Beuitty.')
 </script>
 
 <template>
-  <div class="text-2xl font-black text-white">{{ logo }}</div>
+  <button class="text-2xl font-black text-white">{{ logo }}</button>
 </template>
