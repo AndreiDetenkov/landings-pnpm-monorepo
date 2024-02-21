@@ -1,0 +1,15 @@
+{
+  "name": "landings-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "pnpm monorepo",
+  "main": "index.js",
+  "scripts": {
+    "skin-care:dev": "pnpm --filter skin-care dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
